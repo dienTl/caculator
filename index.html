@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+    <div class=" bg-gradient-to-r from-purple-500 to-pink-500 h-[1000px] ">
+    <div class="container-grid justify-center ml-[500px] flex grid grid-cols-2 w-[250px] h-[250px] bg-[#f97316] rounded-md  "  >
+        <div id="result" class="flex col-span-2 sloid-black"></div>
+        <div class="caculator flex col-span-2 ">
+             <div class="number grid grid-cols-3 ">
+                <button class="btn m-[10px]" value="7">7</button>
+                <button class="btn m-[10px]" value="8">8</button>
+                <button class="btn m-[10px]" value="9">9</button>
+                <button class="btn m-[10px]" value="4">4</button>
+                <button class="btn m-[10px]" value="5">5</button>
+                <button class="btn m-[10px]" value="6">6</button>
+                <button class="btn m-[10px]" value="1">1</button>
+                <button class="btn m-[10px]" value="2">2</button>
+                <button class="btn m-[10px]" value="3">3</button>
+                <button class="btn m-[10px]" value="0">0</button>
+             </div> 
+             <div id="operator " class="grid grid-cols-2">
+                <button class="btn m-[10px]" onclick="undo()">DEL</button>
+                <button class="btn m-[10px]" onclick="clean()">AC</button>
+                <button class="btn m-[10px]" value="*">*</button>
+                <button class="btn m-[10px]" value="/">/</button>
+                <button class="btn m-[10px]" value="+">+</button>
+                <button class="btn m-[10px]" value="-">-</button>
+                <button class="btn m-[10px]" onclick="equal()">=</button>
+             </div>  
+        </div>
+    </div>
+</div>
+    <script src="/emaila/asset/js/main.js"></script>
+</body>
+</html>
